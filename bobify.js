@@ -1,3 +1,21 @@
+//changing head title//
+const titleofmain=document.querySelector("title");
+
+const id=setInterval(()=>{
+let heading=randomreturns();
+titleofmain.innerText=heading;
+
+},7000);
+
+const randomreturns=()=>{
+    const arr=["Bobify","Fan Made for lion","jai babu","babu ante babu ey"];
+    let word=arr[Math.floor(Math.random()*4)];
+    return word;
+}
+
+
+
+
 const heading= document.querySelector("h1");
 
 const bt=document.querySelectorAll("button");
