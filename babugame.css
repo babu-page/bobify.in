@@ -1,0 +1,53 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 618;
+    font-style: normal;
+    overflow: hidden ;
+    background-color: #121212;
+    
+  }   
+/* page style starts */
+ body{
+    text-align: center;
+ }
+ 
+.maindiv{
+    display: flex;
+    background-color: #121212;
+     
+    justify-content: center;
+     
+    
+
+}
+
+ 
+.b{
+    
+    background-color: pink;
+    width: 12rem;
+    height: 12rem;
+    border: 2px solid white;
+    box-shadow: 2px 3px 20px white;
+    margin: 2rem;
+}
+ 
+h1{
+    color: whitesmoke;
+    
+}
+h3{
+    color: whitesmoke;
+    
+}
+
+.flash{
+    background-color: yellow;
+}
+.over{
+    background-color: antiquewhite;
+}
+.userflash{
+    background-color: blue;
+}

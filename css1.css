@@ -1,0 +1,401 @@
+.links{
+  text-decoration: none;
+  color: black;
+  background-color: burlywood;
+  transition: 0.7s;
+  border-radius: 0.6rem;
+   
+}
+.others{
+  background-color: #343434;
+}
+ul{
+  background-color: #343434;
+
+}
+li{
+  background-color: #343434;
+}
+
+.r  >h1{
+  background-color: white;
+   color: pink;
+  width: 400px;
+ }
+.links:hover{
+  background-color: white;
+}
+  * {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 618;
+    font-style: normal;
+    overflow: hidden ;
+    background-color: black;
+    
+  }   
+  .main{
+    display: flex;
+    height: 100vh;
+    top: 0px;
+  }
+  .sidebar{
+    background-color: black;
+    width: 30%;
+    height: 100vh;
+    
+     
+  }
+  .main-track{
+    overflow: auto;
+    margin-left: 1%;
+   flex:1;
+   color: white;
+    background-color: black;
+  }
+  .player{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 4.12rem;
+    background-color: rgb(7, 7, 68);
+    color: white;
+  }
+  .nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius:1rem ;
+    height: 100px;
+    background-color: #121212;
+    padding-left: 2.5rem;
+    padding-right: 0.75rem;
+    line-height: 3rem;
+   
+  }
+   
+  .navoption{ opacity: 0.7;
+     font-size: 1rem;
+    color:   white;
+    background-color: #121212;
+      
+  }
+  .navoption:hover{
+    opacity: 1;
+  }
+  
+  .library{
+    height: 614px;
+    background-color: #121212;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    padding-left: 1rem;
+  }
+  .mainlib{
+background-color: #121212;
+    color: white;
+    height: 25px;
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+    opacity: 0.7;
+  }
+  .mainlib:hover{
+    opacity: 1;
+      }
+  .libcustom {
+    padding-top: 1.2rem;
+    padding-left: 1.5rem;
+margin-right: 1rem;
+    height: 11rem;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    margin-top: 1rem;
+    opacity: 0.9;
+    border-radius: 1rem;
+  }
+  .libcustom:hover{
+    padding-top: 1.2rem;
+    padding-left: 1.5rem;
+margin-right: 1rem;
+    height: 11rem;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    margin-top: 1rem;
+    opacity: 1;
+  }
+  button{
+    font-size: 1rem;
+    background-color: burlywood;
+   margin-top: 0.8rem;
+   padding-left: -100rem;
+   padding-right: -20rem;
+   border-radius: 2rem;
+    transition: 0.7s;
+    
+    
+  }
+  button:hover{
+    font-size: 0.99rem;
+    background-color: white;
+    color: #121210;
+   margin-top: 0.8rem;
+   border-radius: 2rem;
+  }
+  .navbuttons{
+    font-size: 1rem;
+    background-color: burlywood;
+   margin-top: 0.8rem;
+   padding-left: -100rem;
+   padding-right: -20rem;
+   border-radius: 2rem;
+   margin-left: 2rem;
+   transition: 0.7s;
+  }
+  .navbuttons:hover{
+    font-size: 1rem;
+    background-color: white ;
+    color: black;
+   margin-top: 0.8rem;
+   border-radius: 2rem;
+  }
+  .navbar{
+    z-index: 1;
+    position: sticky;
+    display: flex;
+     justify-content: space-between;
+     
+     
+    height: 4.3.0rem;
+    background-color: #121210;
+     color:burlywood;
+    top: 0;
+    
+    border-radius: 1.4rem;
+  }
+  .installbuttons{
+        margin-left: 0rem;
+     margin-top: 0.9rem;
+     width: 10rem;
+     background-color: #121210;
+     color:burlywood;
+    padding-right: 0.1rem;
+    width: 20rem;
+    
+     
+
+    
+  }
+h1{margin-left: 1.2rem;
+      border-radius: 0.9rem;
+    background-color: #121212;
+    padding-top: 0.3rem;
+    transition: 0.8s;
+    opacity: 0.99;
+}
+h1:hover{
+  opacity: 9;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+}
+.card{
+  margin-top: 2rem;
+  margin-left: 2.1rem;
+  background-color: #343434;
+  width: 18rem;
+  height: 22rem;
+}
+
+
+.cardimg{
+  background-image: url("babuswag.jpg");
+  background-size: cover;
+  width: 20rem;
+  height: 11rem;
+  margin-left:-1rem ;margin-top: 0.7rem;
+}
+
+
+.download-btn{
+  background-color: #343434;
+  opacity: 0.7;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 0.7rem;
+  margin: 10rem;
+  border: 2px solid #121212;
+}
+.download-btn:hover{
+  opacity: 1;
+}
+.card-container{
+  display: flex;
+}
+ .backward{
+  width: 1.8rem;
+  color: white;
+  background-color: #121210;
+  margin-bottom: 1rem;
+ }
+ .play{
+   margin-bottom: 1rem;
+   width: 2rem;
+  color: black;
+  background-color: #121210;
+ 
+ }
+ .forward{
+  margin-bottom: 1rem;
+  width: 1.8rem;
+  color: white;
+  background-color: #121210;
+ }
+ .leftpart{
+  height: 4.12rem;
+  width: 25%;
+  background-color: #121210;
+ }
+ .rightpart{ height: 4.12rem;
+  width: 25%;
+  background-color: #121210;
+ }
+ .middile{ height: 4.12rem;
+  width: 50%;
+  background-color: #121210;
+ 
+    
+ }
+ .middile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .player{
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ }
+.partone{
+  height: 55%;
+  margin-bottom: 0%;
+  z-index: 15;
+  background-color: #121212;
+}
+ .playbar{
+  background-color: #121212;
+   margin-bottom: 0.5rem;
+   margin-top: 0%;
+ }
+ #pbar::-webkit-slider-runnable-track{
+  color: green;
+ }
+#pbar{
+  color: wheat;
+  border-radius: 2%;
+  width: 25rem;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1000px) {
+  .card{
+    height: 23rem;
+    width: 20rem;
+    margin-left: 0.9rem;
+  }
+  #r1c3,#r2c3,#r3c3{
+    display: none;
+  }
+}
+@media(max-width:500px){
+  .navbar{
+    padding-left:  6.2rem;
+    display: block;
+  }
+  .installbuttons{
+    display: none;
+  }
+  h1{margin-left: 79px;
+    padding-left: -0.2rem;
+    text-align: left;
+    width: 8rem;
+     
+  }
+  .download-btn{
+    margin-top: 0;
+  }
+  .card{
+    height: 15rem;
+    width: 14rem;
+    margin-left: 0.9rem;
+  }
+  #r1c2{
+    display: none;
+  }
+  #r1c3{
+    display: none;
+  }
+  .sidebar{display: none;}
+
+}
+
+@media (max-width: 720px) {
+   #bookmark{
+    display: none;
+   }
+   .installbuttons{
+width: 10rem;
+    padding-left: 2rem;
+    right: 0%;
+    padding-top: 0.7rem;
+   }
+   h1{
+     
+    margin-left: 1.2rem;
+    border-radius: 0.9rem;
+  background-color: #121212;
+  padding-top: 0.4rem;
+  height: 3rem;
+   
+    
+   }
+   .libcustom {
+    padding-top: 1.2rem;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+margin-right: 1rem;
+    height: 11rem;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    margin-top: 1rem;
+    opacity: 0.9;
+    border-radius: 1rem;
+  }
+}
+ 
+
+#in{
+  background-color: pink;
+  color: black;
+}

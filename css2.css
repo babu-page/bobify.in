@@ -1,0 +1,35 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 618;
+    font-style: normal;
+    overflow: hidden ;
+    background-color: black;
+    
+    
+  }
+
+  h1{
+    color: pink;
+  }
+  input{
+    width: 20rem;
+    color: white;
+  }
+  button{
+    background-color: pink;
+    color: black;
+  }
+  div{
+    background-color: pink;
+    width: 30rem;
+    height: 100rem;
+  }
+  h2{
+    background-color: pink;
+    
+  }
+  .one{
+    width: 200px;
+    height: 400px;
+  }
