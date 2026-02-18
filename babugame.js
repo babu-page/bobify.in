@@ -94,3 +94,30 @@ const verify=()=>{
 }
      
 }
+let sds=document.querySelectorAll(".sd");
+for(al of sds){
+al.addEventListener("mouseenter",(event)=>{
+    console.log("mouse enter", event.target.setAttribute("class","white"));
+      console.log(event.target)
+    //
+   setTimeout(()=>{event.target.setAttribute("class","sd");},470);
+    
+     
+})}
+ 
+function changecolor(color,time){
+    return new Promise((resolve,reject)=>{setTimeout(() => {
+        let h=document.querySelector("h3");
+        h.style.color=color;
+        resolve("Done");
+    }, time);})
+}
+changecolor("pink",1000)
+.then((result)=>{
+    console.log(result,"pink");
+    return changecolor("yellow",1000);
+})
+.then((result)=>{
+    console.log(result,"yellow");
+    return changecolor("blue",2000);
+})

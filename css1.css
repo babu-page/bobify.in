@@ -32,6 +32,7 @@ li{
     font-style: normal;
     overflow: hidden ;
     background-color: black;
+   
     
   }   
   .main{
@@ -399,3 +400,15 @@ margin-right: 1rem;
   background-color: pink;
   color: black;
 }
+input[type="range"] {
+   background: teal;
+   cursor: pointer;
+  accent-color: burlywood; /* Sets the color to red */
+  transition: 1s;
+}
+input[type="range"]:hover {
+  background: teal;
+  cursor: pointer;
+ accent-color: pink; /* Sets the color to pink */
+}
+ 

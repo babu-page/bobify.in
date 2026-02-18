@@ -1,17 +1,3 @@
-//changing head title//
-const titleofmain=document.querySelector("title");
-
-const id=setInterval(()=>{
-let heading=randomreturns();
-titleofmain.innerText=heading;
-
-},7000);
-
-const randomreturns=()=>{
-    const arr=["Bobify","Fan Made for lion","jai babu","babu ante babu ey"];
-    let word=arr[Math.floor(Math.random()*4)];
-    return word;
-}
 
 
 
@@ -64,28 +50,9 @@ const generator=function(){
 
 
 
-const inn=document.querySelector("input");
-const btn=document.querySelector("button");
-const div=document.querySelector("div");
-const pp=document.querySelector("p");
- const h11=document.querySelector("h1");
-pp.addEventListener("click",function(){
-    alert("Bhai");
-})
-h11.addEventListener("click",function(){
-    alert("h1");
-})
 
 
-btn.addEventListener("click",function(){
- 
-    
-    const h=document.createElement("h2");
-    h.innerText=inn.value;
-    div.appendChild(h);
-    inn.value="";
 
-})
 
 
 
